@@ -1,0 +1,60 @@
+.if1_mainContainer{
+    /* background-color: aliceblue; */
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.if1_subContainer{
+    /* height: 100%; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.if1_gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr)) ;
+    /* background-color: aqua; */
+}.if1-img{
+    /* height: 120%; */
+    width: 150%;
+}
+.if1_gridsec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.if1_textSection{
+
+}
+.if1_text1,.if1_text3{
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+}
+.if1_text2{
+    font-family: "Roboto";
+    font-size: 3.3rem;
+    color:#7b95f9 ;
+    font-weight: 600;
+}
+.if1_text4{
+    font-family: "Roboto";
+    font-size: 3.3rem;
+    color:#f26b6d ;
+    font-weight: 600;
+}
+@media only screen and (max-width: 555px){
+    .if1_gridsec1{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+.if1-img{
+    width: 70%;
+}
+.if1_subContainer{
+border: 0;
+}
+}

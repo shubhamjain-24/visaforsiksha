@@ -1,0 +1,91 @@
+.s4-mainContainer{
+  background-color: #fff9f5;
+}
+.s4-gridContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  /* background-color: aqua; */
+  margin-top: 90px;
+  /* margin-left: 80px; */
+  /* width: 90%; */
+  
+}
+.s4-gridDiv1 {
+  display: flex;
+  /* background-color: antiquewhite; */
+  align-items: center;
+  justify-content: center;
+}
+.s4-gridImg {
+  width: 800px;
+}
+.s4-gridDiv2-text1 {
+  color: #1e144f;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+.s4-gridDiv2-text2 {
+  margin-top: 20px;
+  color: #71569d;
+  font-size: 16px;
+  font-family: "Poppins";
+  width: 80%;
+}
+.s4-grid-iconsDiv {
+  display: flex;
+  flex-direction: column;
+  font-family: "Poppins";
+}
+.s4-grid-icon {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+  /* background-color: antiquewhite; */
+  justify-content: space-between;
+}
+.s4-grid-icon1 {
+  display: flex;
+  align-items: center;
+}
+.s4-icons {
+  color: #1e144f;
+  font-size: 34px;
+  /* border: 1px solid red; */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    176deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(220, 250, 254, 1) 79%
+  );
+}
+.s4-iconText {
+  color: #71569d;
+  font-size: 26px;
+  margin-left: 10px;
+}
+.s4-grid2-button{
+    margin-top: 50px;
+    background-color: #72569d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+.s4-grid2-button:hover{
+    background-color: #553d7b;
+    transition: 0.5s ease-in-out;
+}

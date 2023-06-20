@@ -1,0 +1,325 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.s7-mainContainer{
+    background-color: #fdfdfd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.s7-headingDiv{
+    display: flex;
+    width: 70%;
+    /* background-color: antiquewhite; */
+    align-items: center;
+    justify-content: space-between;
+    /* margin-left: 240px; */
+    margin-top: 80px;
+}
+.s7-headingDiv1{
+    /* border: 1px solid red; */
+}
+.s7-headText1{
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px;
+    color: rgb(216, 48, 48);
+    margin-bottom: 5px;
+}
+.s7-headText2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 46.8px;
+    color: rgb(3, 46, 66);
+}
+.s7-headingDiv2{
+    width: 55%;
+}
+.s7-headText3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30.6px;
+    color: rgb(103, 103, 103);
+    /* color: gray; */
+}
+.s7-grid{
+    /* background-color: #d83030; */
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  /* background-color: aqua; */
+  /* grid-auto-rows: 755px; */
+  margin-top: 50px;
+  width: 80%;
+  /* margin-left: 180px; */
+  gap: 20px;
+}
+.s7-card1{
+    width: 96%;
+    height: 450px;
+    /* border: 1px solid red; */
+    cursor: pointer;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* position: relative; */
+}
+.s7-cardImg{
+    margin-left: 13px;
+    margin-top: 13px;
+    /* position: relative; */
+}
+.s7-mainImage{
+   width: 91%;
+   margin-left: 10px;
+}
+.s7-card1:hover .s7-imageDate{
+    background-color: #d83030;
+}
+.s7-card1:hover .s7-cardImg{
+    -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%); /* FF 35+ */
+  transition: 0.5s ease-in-out;
+}
+.s7-imageDate{
+    background-color: #d83030;
+    color: white;
+    width: 10%;
+    height: 40px;
+    position: absolute;
+    display: flex;
+    margin-top: -40px;
+    margin-left: 7%;
+    border-radius: 10px 10px 0px 0px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 42px;
+}
+.s7-imageDateSvg{
+    height: 25px;
+    margin-left: -5px;
+    margin-right: 3px;
+}
+.s7-cardText1{
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    color: #032e42;
+    width: 85%;
+    margin-left: 25px;
+    text-align: center;
+}
+.s7-cardText1:hover{
+    color:#d83030;
+    transition: 0.4s ease-in-out;
+}
+.s7-cardText2{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgb(103, 103, 103);
+    width: 83%;
+    margin-left: 35px;
+    text-align: center;
+}
+
+@media (max-width:1434px) {
+    .s7-imageDate{
+        /* margin-left: 100px; */
+    }
+    .s7-headingDiv{
+        /* margin-left: 180px; */
+    }
+    .s7-grid{
+        /* margin-left: 150px; */
+    }
+}
+
+@media (max-width:1200px){
+    .s7-headingDiv{
+        margin-left: 170px;
+    }
+    .s7-grid{
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        /* margin-left: 130px; */
+    }
+    .s7-headingDiv1{
+        margin-left: -30px;
+    }
+    .s7-headText1{
+        font-size: 15px;
+    }
+    .s7-headText2{
+        font-size: 32px;
+    }
+    .s7-headText3{
+        font-size: 16px;
+    }
+    .s7-imageDate{
+        width: 9%;
+        height: 30px;
+        margin-top: -30px;
+        font-size: 10.5px;
+        margin-left: 8%;
+    }
+    .s7-cardText1{
+        font-size: 17px;
+        margin-left: 20px;
+    }
+    .s7-cardText2{
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .s7-card1{
+        height: 400px;
+    }
+}
+@media (max-width:986px){
+    .s7-card1{
+        height: 420px;
+    }
+    .s7-headingDiv{
+        margin-left: 100px;
+        width:90%;
+        justify-content: space-between;
+    }
+    .s7-headingDiv2{
+        margin-right: 30px;
+    }
+    .s7-imageDate{
+        width: 10%;
+        height: 30px;
+        margin-top: -30px;
+        font-size: 10.5px;
+        margin-left: 13%;
+    }
+}
+@media (max-width:909px){
+    .s7-imageDate{
+        width: 11%;
+        font-size: 10px;
+        /* margin-left: 125px; */
+    }
+}
+@media (max-width:820px){
+    .s7-imageDate{
+        width: 11%;
+        font-size: 10px;
+        /* margin-left: 110px; */
+    }
+    .s7-headText3{
+        margin-left: 20px;
+    }
+}
+@media (max-width:762px){
+    .s7-headingDiv{
+        display: block;
+    }
+    .s7-headText1{
+        font-size: 22px;
+    }
+    .s7-headingDiv2{
+        margin-left: -50px;
+        margin-top: 20px;
+        width: 70%;
+    }
+    .s7-grid{
+        /* margin-left: 90px; */
+    }
+    .s7-imageDate{
+        width: 12%;
+        font-size: 9.4px;
+        /* margin-left: 105px; */
+    }
+}
+@media (max-width:734px){
+    .s7-imageDate{
+        height:25px;
+        font-size: 8.5px;
+        margin-top: -25px;
+        /* margin-left: 95px; */
+    }
+}
+@media (max-width:649px){
+    .s7-headText1{
+        font-size: 28px;
+    }
+    .s7-headText2{
+        font-size: 38px;
+    }
+    .s7-card1{
+        width: 80%;
+        margin-left: 45px;
+        height: 480px;
+    }
+    .s7-imageDate{
+        width: 20%;
+        height: 35px;
+        margin-top: -34px;
+        margin-left: 21%;
+        font-size: 10px;
+    }
+}
+@media (max-width:581px){
+    .s7-imageDate{
+        height:35px;
+        margin-top: -35px;
+        margin-left: 120px;
+    }
+}
+@media (max-width:480px){
+    .s7-headingDiv{
+        margin-left: 50px;
+    }
+    .s7-headText2{
+        font-size: 36px;
+    }
+    .s7-headingDiv2{
+        width: 100%;
+    }
+    .s7-grid{
+        margin-left: -50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .s7-card1{
+        width: 99%;
+        height: 400px;
+    }
+    .s7-imageDate{
+        width: 25%;
+        height:30px;
+        margin-top: -30px;
+        margin-left: 27%;
+    }
+}
+@media (max-width:380px){
+    .s7-headText2{
+        font-size: 30px;
+    }
+    .s7-headText1{
+        font-size: 26px;
+    }
+    .s7-imageDate{
+        width: 25%;
+        height:30px;
+        margin-top: -30px;
+        margin-left: 27%;
+        font-size: 10px;
+    }
+}
+@media (max-width:370px){
+    .s7-imageDate{
+        width: 25%;
+        height:30px;
+        margin-top: -30px;
+        margin-left: 27%;
+        font-size: 8px;
+    }
+}

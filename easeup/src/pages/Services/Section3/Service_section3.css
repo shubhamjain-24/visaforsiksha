@@ -1,0 +1,61 @@
+.Serivce_s3_mainContainer{
+    margin-top: 70px;
+    width: 100%;
+    background: url('../../../Images/service-s3-img.jpeg');
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Serivce_s3_mainContainer_textDiv{
+    /* background-color: red; */
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Serivce_s3_mainContainer_text{
+    font-family: "Poppins",'sans-serif';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    color: white;
+}
+.Serivce_s3_mainContainer_headtext{
+    margin-top: -10px;
+    font-family: "Roboto",'sans-serif';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 57px;
+    color: white;
+    text-align: center;
+}
+.Serivce_s3_mainContainer_button{
+    width: 150px;
+    height: 50px;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(18, 115, 235) ;
+    font-family: "Poppins",'sans-serif';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    cursor: pointer;
+}
+.Serivce_s3_mainContainer_button:hover{
+    background: rgba(255, 255, 255, 0.67);
+    transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 470px){
+    .Serivce_s3_mainContainer_text{
+        font-size: 1rem;
+    }
+    .Serivce_s3_mainContainer_headtext{
+        font-size: 2rem;
+    }
+}

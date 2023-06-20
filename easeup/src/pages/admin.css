@@ -1,0 +1,177 @@
+* {
+    font-family: "Roboto";
+}
+
+* {
+    font-family: "Roboto";
+}
+
+.admin-mainContainer {}
+
+.admin-mainHead-div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-mainHead {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-top: 1%;
+    color: rgb(45, 44, 44);
+}
+
+.admin-subContainer {
+    display: flex;
+    padding: 20px;
+    background-color: #f0f4f7;
+}
+
+.admin-graphContainer {
+    flex: 1.5;
+}
+
+.admin-cardsContainer {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 2%;
+}
+
+.admin-card {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* width: 50%; */
+    /* background-color: #21d2e6; */
+    background: rgb(33, 210, 230);
+    background: radial-gradient(circle,
+            rgba(33, 210, 230, 1) 48%,
+            rgba(97, 144, 232, 1) 100%);
+    height: 200px;
+    border-radius: 5px;
+}
+
+.admin-card-icon-background {
+    background-color: white;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.admin-card-icon {
+    font-size: 2.5rem;
+    color: #21d2e6;
+}
+
+.admin-card-number {
+    font-size: 2rem;
+    font-weight: 600;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.admin-card-head {
+    font-size: 1rem;
+    color: white;
+}
+
+.admincard-2 {
+    background: rgb(64, 75, 119);
+    background: linear-gradient(180deg,
+            rgba(64, 75, 119, 1) 27%,
+            rgba(48, 86, 118, 1) 85%);
+}
+
+.icon2 {
+    color: #e3c0c0;
+}
+
+.admincard-3 {
+    background: rgb(56, 184, 143);
+    background: linear-gradient(180deg, rgba(56, 184, 143, 1) 4%, rgba(16, 165, 101, 1) 100%);
+}
+
+.icon3-back {
+    background-color: #364549;
+}
+
+.icon3 {
+    color: white;
+}
+
+.admincard-4 {
+    background: rgb(255, 154, 143);
+    background: linear-gradient(180deg, rgba(255, 154, 143, 1) 21%, rgba(255, 25, 78, 1) 100%);
+}
+
+.icon4-back {
+    background-color: rgba(255, 255, 255, 0.489);
+}
+
+.icon4 {
+    color: white;
+}
+
+.admincard-5 {
+    background: rgb(230, 87, 88);
+    background: linear-gradient(180deg, rgba(230, 87, 88, 1) 4%, rgba(119, 29, 50, 1) 100%);
+}
+.download-table-xls-button {
+    background-color: #217346;
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.admincard-6 {
+    background: rgb(80, 213, 183);
+    background: linear-gradient(180deg, rgba(80, 213, 183, 1) 4%, rgba(6, 125, 104, 1) 100%);
+}
+
+@media only screen and (max-width: 1200px) {
+    .admin-subContainer {
+        display: block;
+    }
+
+    .admin-cardsContainer {
+        margin-top: 5%;
+    }
+
+    .admin-graphContainer {
+        margin-left: 3%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 487px) {
+
+    .admin-cardsContainer {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+
+    .admin-card-icon-background {
+        width: 60px;
+        height: 60px;
+    }
+
+    .admin-card-icon {
+        font-size: 2rem;
+    }
+
+    .admin-card-number {
+        font-size: 1.5rem;
+    }
+
+    .admin-card-head {
+        text-align: center;
+    }
+}

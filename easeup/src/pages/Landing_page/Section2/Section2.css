@@ -1,0 +1,125 @@
+.s2_mainContainer {
+  /* background: url('../../Images/s2-img1.jpeg'); */
+  /* object-fit: cover; */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 70%; */
+}
+.s2-mainImage {
+  width: 100%;
+}
+.s2-imgContainer {
+  position: absolute;
+  z-index: -1;
+}
+/* .s2_gridContainer { */
+/* display: grid; */
+/* grid-template-columns: repeat(auto-fit, minmax(520px, 1fr)); */
+/* background-color: aqua; */
+/* grid-auto-rows: 755px; */
+/* background: rgb(255, 252, 250); */
+/* background: linear-gradient( */
+/* 90deg, */
+/* rgba(255, 252, 250, 1) 0%, */
+/* rgba(254, 235, 220, 1) 79% */
+/* ); */
+/* margin-top: 90px; */
+/* margin-left: 80px; */
+/* width: 90%; */
+/* } */
+.s2_gridDiv1_img {
+  width: 700px;
+}
+.s2_gridDiv1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s2_gridDiv2 {
+  /* z-index: 10; */
+  /* position: absolute; */
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* height: 90%; */
+  margin-top: 40px;
+  /* background-color: red; */
+  border-radius: 40px;
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.244
+  ); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  /* border: 3px solid #f1f1f1; */
+  /* position: absolute; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  z-index: 2;
+  width: 60%;
+  /* padding: 20px; */
+  /* height: 200px; */
+  text-align: center;
+}
+.s2_gridDiv2_text {
+  /* color: #1e144f; */
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin-top: 40px;
+  letter-spacing: 2px;
+}
+.s2_textHighlight {
+  color: #67518b;
+}
+.s2_gridDiv2_text2 {
+  width: 80%;
+  margin-top: 20px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  /* color: #786e8f; */
+  color: black;
+}
+.s2_gridDiv2_buttonDiv {
+  display: flex;
+  /* flex-direction: column; */
+  width: 400px;
+  /* background-color: #1e144f; */
+  justify-content: space-between;
+  margin-top: 30px;
+  font-family: "roboto";
+  font-size: 14px;
+}
+.s2_gridDiv2_button1 {
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  background-color: #72569d;
+  color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s2_gridDiv2_button2 {
+  cursor: pointer;
+  width: 170px;
+  height: 50px;
+  color: #72569d;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}

@@ -1,0 +1,65 @@
+.s5-mainContaier{
+    margin-top: 90px;
+    
+}
+.s5-headContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.s5-heading{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 600;
+    color: #1e144f;
+    margin-top: 20px;
+}
+.s5-heading2{
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: #71569d;
+}
+.s5-gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    /* background-color: antiquewhite; */
+    margin-top: 50px;
+    margin-left: 190px;
+    width: 80%;
+    gap: 40px;
+    
+}
+.s5-gridDiv1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #f3ebfe; */
+    background-color: #fcfcfc;
+    flex-direction: column;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+.icons5{
+    font-size: 44px;
+    margin-top: 10px;
+}
+.s5-gridDiv1-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.s5-gridDiv1-Text1{
+ color:  #1e144f;   
+ font-size: 22px;
+ font-family: "Roboto";
+ font-weight: 500;
+ margin-top: 10px;
+}
+.s5-icon{
+    width: 80%;
+}

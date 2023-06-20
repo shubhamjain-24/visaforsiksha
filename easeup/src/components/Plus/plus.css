@@ -1,0 +1,109 @@
+.p_mainContainer,.p_menu{
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    /* background-color: aliceblue; */ 
+    margin: auto;
+    top: 20px;
+    right: 0;
+    bottom: 0;
+    left: 25px;
+    cursor: pointer;
+    border: 1px solid red;
+}
+.p_menu{
+    z-index: -1;
+    transform: scale(0.9);
+}
+.p_toggle{
+    /* height: 0;
+    width: 40px;
+    border-bottom:  30px solid #2f7789;
+    border-left:15px solid transparent ;
+    border-right: 15px solid transparent;
+    position: absolute;
+    top: 0; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color:#2f7789 ;
+    position: absolute;
+}
+/* .p_toggle::before{
+    content: "";
+    height: 0;
+    width: 40px;
+    border-top:  30px solid #2f7789;
+    border-left:15px solid transparent ;
+    border-right: 15px solid transparent;
+    position: absolute;
+    top: 30px;
+    left: -15px;
+    /* border: 1px solid red; */
+/* } */ 
+.p_toggle:hover{
+    background-color: #edd23b;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+/* .p_toggle::before:hover{
+    border-top:  30px solid #f9d230;
+} */
+#add{
+    font-size: 2.7rem;
+    color: white;
+    position: relative;
+    top: 4px;
+    left: 3.6px;
+    transition: 1s;
+    font-weight: bold;
+}
+.p_menu-item{
+    /* height: 0;
+    width: 40px;
+    border-bottom:  30px solid #2f7789;
+    border-left:15px solid transparent ;
+    border-right: 15px solid transparent;
+    position: absolute;
+    top: 0;
+    transition: 1s; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color:#2f7789 ;
+    position: absolute;
+    transition: 1s;
+    margin-left: 4px;
+}
+.p_menu-item:hover{
+    background-color: #edd23b;
+    transition: 0.3s;
+    
+}
+.p_menu-item:hover #item-svg{
+    color: black;
+}
+/* .p_menu-item::before{
+    content: "";
+    height: 0;
+    width: 40px;
+    border-top:  30px solid #2f7789;
+    border-left:15px solid transparent ;
+    border-right: 15px solid transparent;
+    position: absolute;
+    top: 29px;
+    left: -15px;
+} */
+#item-svg{
+    color:#d2d2d2 ;
+    font-size: 1.6rem;
+    margin-top: -3.6px;
+    margin-left: 2.4px;
+}
+a{
+    position: relative;
+    top: 13px;
+    left: 5px;
+    /* background-color: red; */
+}

@@ -1,0 +1,49 @@
+.register-form-main-div {
+    /* background-color: antiquewhite; */
+    position: absolute;
+    /* overflow-y: hidden; */
+    z-index: 100;
+    margin-top: 80px;
+    height: 80%;
+}
+
+.register-form {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.register-form-mainstack {
+    margin-top: 20px;
+}
+
+.RU_mainDiv {
+    /* background: url('../Images/CANDA.png'); */
+    /* position: fixed; */
+    /* background-color: aqua; */
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    /* z-index: -1; */
+}
+
+.RU_mainDivImgDIV {
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 60px;
+    /* height: 60vh; */
+}
+
+.RU_mainDivImgDIV img {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    object-fit: contain;
+}
+
+.RU_navbar {
+    z-index: 9;
+    position: fixed;
+    /* background-color: black; */
+}

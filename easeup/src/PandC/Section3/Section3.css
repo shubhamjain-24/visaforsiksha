@@ -1,0 +1,22 @@
+.PandC-s3-mainDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #fff2e7;
+}
+
+.PandC-s3-TextDiv{
+    font-family: 'Passions Conflict', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+}
+@media only screen and (max-width: 800px){
+    
+    .PandC-s3-TextDiv{
+        font-size: 28px;
+    }
+}

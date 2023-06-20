@@ -1,0 +1,9 @@
+make sure there is no Double slashs
+http://localhost:3000/signup/04a2-4717-a808-58bcb757aee7
+incase of [http://localhost:3000] it will displayed to the hoste website link
+
+AdminSignup=/6855e056-04a2-4717-a808-58bcb757aee7/service/e1f8a68f-fcc5-4a6c-8764-6607fc4d4d79/SignUpAdmin
+
+CheckerSignup=/SignUpChecker/e1f8a68f-fcc5-4a6c-8764-6607fc4d4d79
+
+InternSignup =/signup/04a2-4717-a808-58bcb757aee7

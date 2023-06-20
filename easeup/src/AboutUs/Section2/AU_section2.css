@@ -1,0 +1,83 @@
+.AU_section2_mainContainer{
+margin-top: 80px;
+font-family: 'Roboto', sans-serif;
+}
+.AU_section2_gridContainer{
+      /* background-color: black; */
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(440px, 1fr));
+      /* grid-auto-rows: 755px; */
+      margin-top: 50px;
+      width: 80%;
+      margin-left: 180px;
+      gap: 20px;
+}
+.AU_section2_gridContainerDiv{
+    /* background-color: red; */
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    /* padding: 20px; */
+    text-align: justify;
+}
+.AU_section2_gridContainerDiv_text{
+    /* background-color: aqua; */
+    width: 90%;
+}
+.AU_section2_gridContainerDiv-img{
+    width: 90%;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1150px){
+    .AU_section2_gridContainerDiv-img{
+        width: 70%;
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    .AU_section2_gridContainerDiv_text{
+        width: 100%;
+        margin-left: -90px;
+        /* background-color: rebeccapurple; */
+    }
+}
+@media only screen and (max-width: 900px){
+    .AU_section2_gridContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+    }
+    .AU_section2_gridContainerDiv{
+        /* background-color: rebeccapurple; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0px;
+        font-size: 13px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .AU_section2_gridContainerDiv{
+        /* background-color: rgb(43, 226, 192); */
+        width: 100%;
+        margin-left: -90px;
+    }
+    .AU_section2_gridContainerDiv_text{
+        margin-left: 0px;
+    }
+
+}
+@media only screen and (max-width: 500px){
+    
+    .AU_section2_gridContainerDiv_text_Para{
+        font-size: 13px;
+    }
+    .AU_section2_gridContainer{
+        /* background-color: rebeccapurple; */
+        margin-left: 70px;
+        width: 80%;
+    }
+}

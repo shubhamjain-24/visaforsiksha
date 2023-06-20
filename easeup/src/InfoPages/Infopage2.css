@@ -1,0 +1,95 @@
+.if2_mainContainer{
+    /* background-color: aliceblue; */
+    /* width: 80%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    margin-top: -80px;
+}
+.if2_subContainer{
+    /* height: 100%; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.if2_gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr)) ;
+    /* background-color: aqua; */
+    
+    gap: 80px;
+}.if2-img{
+    /* height: 120%; */
+    /* width: 150%; */
+}
+.if2_gridsec1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.if2_gridsec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.if2_textSection{
+text-align: center;
+margin-right: 50px;
+/* border: 1px solid red; */
+}
+.if2_text1{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.4rem;
+    text-align: center;
+}
+.if2_sp1{
+    color: #f26b6d;
+    font-weight: 600;
+}
+.if2_sp2{
+    font-weight: 600;
+}
+.if2_text2{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.if2_reviewSection{
+    margin-right: 50px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 90%;
+}
+.if3-img{
+    margin-left: 40px;
+}
+@media only screen and (max-width: 670px){
+    .if2_mainContainer{
+        margin-top: -50px;
+    }
+    .if3-img{
+        margin-left: 0px;
+    }
+    .if2_textSection{
+        margin-right: 0px;
+    }.if2_gridsec1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        /* justify-content: center; */
+    }
+}
+@media only screen and (max-width: 555px){
+    
+.if2-img{
+    width: 80%;
+}
+}

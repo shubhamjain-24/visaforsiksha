@@ -1,0 +1,59 @@
+/* Ye chote wale blogs he search filter ke neeche wale */
+
+.BI_mainContaier{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 10px;
+    /* background-color: aqua; */
+}
+.BI_card{
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* max-width: fit-content; */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.BI_cardImg{
+    height: 90px;
+    border-radius: 5px;
+}
+.BI_cardTitle{
+    font-size: 0.9rem;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.BI_card:hover .BI_cardTitle{
+    color:rgb(18, 115, 235) ;
+    transition: 0.5s ease-in-out;
+}
+.blogItem-link{
+    color: inherit;
+    text-decoration: none;
+}
+
+/* Responsive */
+@media screen and (max-width: 1200px){
+    .BI_cardImg{
+        height: 60px;
+    }
+    .BI_cardTitle{
+        margin-top: -20px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .BI_card{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+    }   
+}
+@media screen and (max-width: 650px){
+    .BI_card{
+        margin-left: -20px;
+    }   
+}

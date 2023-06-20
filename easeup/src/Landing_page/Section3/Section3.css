@@ -1,0 +1,75 @@
+.s3-mainContaier{
+    margin-top: 110px;
+    /* position: relative; */
+}
+.s3-headContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.s3-heading{
+    font-family: "Poppins";
+    font-size: 40px;
+    font-weight: 600;
+    color: #1e144f;
+}
+.s3-gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    /* background-color: antiquewhite; */
+    margin-top: 90px;
+    margin-left: 140px;
+    width: 80%;
+    gap: 20px
+    ;
+}
+.s3-gridDiv1{
+    display: flex;
+    align-items: center;
+    background-color: #fcfcfc;
+    flex-direction: column;
+}
+.icon{
+    font-size: 400%;
+    margin-top: 10px;
+}
+.s3-gridDiv1-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.s3-gridDiv1-Text1{
+ color:  #1e144f;   
+ font-size: 28px;
+ font-family: "Roboto";
+ font-weight: 500;
+ margin-top: 10px;
+}
+.s3-gridDiv1-Text2{
+    margin-top: 10px;
+    color: #71569d;
+    font-family: "Poppins";
+    font-size: 14px;
+    text-align: center;
+    width: 90%;
+}
+
+@media only screen and (max-width: 1100px){
+    .s3-gridContainer{
+        margin-left: 100px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .s3-gridContainer{
+        margin-left: 60px;
+    }
+}
+@media only screen and (max-width: 470px){
+    .s3-gridContainer{
+        margin-left: 40px;
+    }
+    .s3-heading{
+        font-size: 32px;
+    }
+}

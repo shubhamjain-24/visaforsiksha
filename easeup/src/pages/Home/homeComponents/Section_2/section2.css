@@ -1,0 +1,278 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+.section2_grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(520px, 1fr));
+  /* background-color: aqua; */
+  /* grid-auto-rows: 755px; */
+  margin-top: 90px;
+}
+.s2_sec1 {
+  /* background-color: rgba(255, 0, 0, 0.241); */
+}
+.s2_textDiv {
+  width: 65%;
+  margin-left: 210px;
+}
+.s2_headText1 {
+  color: #df3030;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 8px;
+}
+.s2_headText2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 46.8px;
+  color: rgb(3, 46, 66);
+  margin-bottom: -5px;
+}
+.s2_text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 27.2px;
+  color: rgb(103, 103, 103);
+  font-family: 'Roboto', sans-serif;
+}
+.s2_NumbersDiv {
+  display: flex;
+  /* border: 1px solid black; */
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.s2_movingNumberDiv{
+  display: flex;
+  flex-direction: row;
+}
+.s2_nd1 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 60px;
+  color: rgb(216, 48, 48);
+}
+.s2_nd1_text {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 7px;
+  word-spacing: 6px;
+  color: rgb(3, 46, 66);
+}
+.s2_vertical {
+  border-left: 2px solid lightgray;
+  height: 140px;
+  margin-top: -20px;
+  margin-left: 20px;
+  /* position: absolute; */
+  /* left: 50%; */
+}
+.s2_nd2{
+    margin-left: 30px;
+}
+.s2_sec2 {
+  /* background-color: rgba(255, 255, 0, 0.253); */
+}
+.s2_img{
+    height: 600px;
+}
+
+/* RESPONSIVENESS */
+@media (max-width:1200px) {
+  .s2_textDiv{
+    margin-left: 30px;
+  }
+  .section2_grid{
+    margin-top: 40px;
+  }
+  .s2_img{
+    height: 450px;
+  }
+  .s2_headText2{
+    font-size: 37px;
+  }
+  .s2_nd1{
+    font-size: 50px;
+  }
+  .s2_nd1_text{
+    font-size: 18px;
+  }
+  .s2_text{
+    font-size: 16px;
+  }
+  .s2_vertical{
+    height: 110px;
+  }
+  .s2_sec2{
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width:1034px) {
+  .s2_textDiv{
+    width: 70%;
+  }
+  .section2_grid{
+    margin-top: 50px;
+  }
+  .s2_img{
+    height: 450px;
+  }
+  .s2_headText2{
+    font-size: 32px;
+  }
+  .s2_headText1{
+    font-size: 20px;
+  }
+  .s2_nd1{
+    font-size: 50px;
+  }
+  .s2_nd1_text{
+    font-size: 17px;
+  }
+  .s2_text{
+    font-size: 16px;
+  }
+  .s2_vertical{
+    height: 130px;
+  }
+  .s2_sec2{
+    margin-left: 250px;
+    margin-top: 40px;
+  }
+  .br{
+    display: inline;
+    content: ' ';
+    padding: 0.3px;
+  }
+}
+
+@media (max-width:854px){
+  .s2_sec2{
+    margin-left: 200px;
+    margin-top: 40px;
+  }
+}
+@media (max-width:746px){
+  .section2_grid{
+    margin-top: 40px;
+  }
+  .s2_textDiv{
+    width: 90%;
+  }
+  .s2_img{
+    height: 450px;
+  }
+  .s2_headText2{
+    font-size: 32px;
+  }
+  .s2_nd1{
+    font-size: 50px;
+  }
+  .s2_nd1_text{
+    font-size: 17px;
+  }
+  .s2_text{
+    font-size: 14px;
+  }
+  .s2_vertical{
+    height: 130px;
+  }
+  .s2_sec2{
+    margin-left: 150px;
+    margin-top: 40px;
+  }
+
+}
+
+@media (max-width:630px){
+  .s2_sec2{
+    margin-left: 80px;
+    margin-top: 40px;
+  }
+  .s2_img{
+    height: 400px;
+  }
+}
+@media (max-width:525px){
+  .s2_sec1{
+    width: 80%;
+  }
+  .s2_textDiv{
+    width: 90%;
+    /* margin-right: 0px; */
+  }
+  .s2_sec2{
+    width: 70%;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width:470px){
+  
+  /* .s2_textDiv{
+    width: 90%;
+  } */
+  .s2_img{
+    height: 300px;
+  }
+  .s2_textDiv{
+    /* width: 85%; */
+  }
+
+  .s2_headText2{
+    font-size: 33px;
+    width: 70%;
+  }
+  .s2_headText1{
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  .s2_nd1{
+    font-size: 60px;
+    margin-left: 25px;
+  }
+  .s2_nd1_text{
+    font-size: 24px;
+    margin-left: 7px;
+    margin-top: 20px;
+  }
+  .s2_text{
+    font-size: 20px;
+    width: 80%;
+    margin-top: 20px;
+  }
+  .s2_NumbersDiv{
+    display: block;
+  }
+  .s2_vertical{
+    display: none;
+  }
+  .s2_vertical{
+    height: 130px;
+  }
+  .s2_sec2{
+    margin-left: 30px;
+    margin-top: 40px;
+  }
+  .s2_NumbersDiv{
+    margin-left: -20px;
+  }
+
+}
+@media (max-width:400px){
+  .s2_sec1{
+    width: 70%;
+  }
+  .s2_sec2{
+    width: 60%;
+  }
+}
+@media (max-width:370px){
+  .s2_sec1{
+    width: 60%;
+  }
+}

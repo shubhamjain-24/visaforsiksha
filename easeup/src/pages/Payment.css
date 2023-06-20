@@ -1,0 +1,15 @@
+.Payment_button{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Payment_maindiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    border: 3px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}

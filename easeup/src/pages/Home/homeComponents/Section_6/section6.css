@@ -1,0 +1,177 @@
+.s6-mainContainer {
+  height: 515px;
+  /* border: 5px solid red; */
+  /* margin-top: 190px; */
+}
+.s6-backContainer {
+  position: relative;
+  /* margin-top: 150px; */
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* position: absolute; */
+  z-index: -1;
+  /* border: 5px solid black; */
+  /* height: 100%; */
+}
+.s6-backLeft {
+  width: 50%;
+  /* border: 5px solid black; */
+  /* background-color: red; */
+}
+.s6-backLeftImg {
+  width: 100%;
+  height: 100%;
+  /* height: 95%; */
+}
+.s6-backRight {
+  /* border: 5px solid red; */
+  width: 50%;
+  /* object-fit: contain; */
+}
+.s6-backRightImg {
+  width: 100%;
+  height: 100%;
+}
+.s6-frontContainer {
+  position: absolute;
+  z-index: 9;
+  width: 45%;
+  /* height: 80%; */
+  background-color: rgb(255, 255, 255);
+  /* border: 5px solid rgb(0, 0, 0); */
+  top: 17%;
+  bottom: 17%;
+  left: 28%;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.s6-frontContainerText {
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 54.6px;
+  color: rgb(3, 46, 66);
+  font-family: "Poppins", sans-serif;
+  /* border: 1px solid red; */
+  width: 80%;
+  text-align: center;
+}
+.s6-button {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  color: white;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: #d82f30;
+  border: none;
+  width: 170px;
+  height: 60px;
+  margin-top: 30px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.s6-button:hover {
+  background-color: #d15252;
+  transition: 0.7s ease-in-out;
+}
+.s6-frontContainer2{
+  display: none;
+}
+
+@media (max-width: 1130px) {
+  .s6-frontContainer {
+    /* width: 60%; */
+  }
+  .s6-frontContainerText {
+    font-size: 32px;
+  }
+  .s6-button {
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+  }
+  .s6-frontContainer{
+    padding: 20px;
+  }
+  .s6-mainContainer{
+   height: 450px;
+  }
+}
+@media (max-width: 960px) {
+  .s6-frontContainerText {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .s6-button {
+    font-size: 14px;
+    width: 120px;
+    height: 50px;
+    margin-top: 20px;
+  }
+  .s6-mainContainer{
+    height: 300px;
+  }
+}
+@media (max-width: 950px) {
+  .s6-frontContainerText {
+    font-size: 20px;
+    line-height: 34px;
+  }
+  .s6-button {
+    font-size: 11px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 420px){
+  .s6-frontContainer2{
+    width: 80%;
+  }
+}
+
+/* CHANIng THE DESIGN */
+@media (max-width: 1000px){
+  .s6-backLeftImg,.s6-backRightImg{
+    display: none;
+  }
+  .s6-mainContainer{
+    /* margin-top: 100px;
+    height: 300px;
+    margin-bottom: -100px; */
+  }
+  .s6-backContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d15252;
+    height: 300px;
+  }
+  .s6-frontContainer{
+    display: none;
+  }
+  .s6-frontContainer2{
+    display: block;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+  }
+} 
+@media (max-width: 710px){
+
+}

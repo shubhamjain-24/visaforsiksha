@@ -1,0 +1,30 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+.Service_section1_mainContainer{
+    background: url('../../../Images/blog-img1.jpeg');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    /* object-fit: contain; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Service_section1_textContainer-Text1{
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    color: white;
+}
+.Service_section1_textContainer-Text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    /* margin-top: -40px; */
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+    color: white;
+}

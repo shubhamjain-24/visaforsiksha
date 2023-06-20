@@ -1,0 +1,24 @@
+.ClientDetailsTable{
+    
+}
+@media (max-width:710px){
+    .ClientDetailsTable{
+        font-size: 14px;
+    }
+    .ClientDetailsButton{
+        font-size: 12px;
+        height: 50px;
+        width: 50px;
+        padding: 0;
+        margin-top: 15px;
+    }
+    .ClientDetailsButton2{
+        font-size: 12px;
+        height: 50px;
+        width: 50px;
+        padding: 0;
+    }
+    .ClientDetailsAccordian{
+        
+    }
+}

@@ -1,0 +1,63 @@
+.AU_section4_mainContainer{
+    background: url('../../../Images/aboutUs-img3.jpeg');
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.AU_section4_gridContainer{
+      /* background-color: rgb(137, 125, 125); */
+      /* display: grid; */
+      /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+      /* grid-auto-rows: 755px; */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: -70px;
+      width: 80%;
+}
+.AU_section4_gridContainerDiv{
+    padding: 20px;
+    margin: 0 30px;
+}
+.AU_section4_gridContainerDivText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.AU_section4_gridContainerDivText1{
+    font-family:'Poppins', 'sans-serif' ;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    color: white;
+    display: flex;
+}
+.AU_section4_gridContainerDivText2{
+    font-family: 'Roboto','sans-serif';
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    color: white;
+    margin-top: 10px;
+}
+@media screen and (max-width: 1250px){
+    .AU_section4_gridContainerDiv{
+        margin: 0px 10px;
+    }
+}
+@media screen and (max-width: 1055px){
+    .AU_section4_gridContainerDiv{
+        margin: 0px 5px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .AU_section4_mainContainer{
+       height: 40%;
+    }
+}

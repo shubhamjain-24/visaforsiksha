@@ -1,0 +1,76 @@
+.B_section2_mainContainer{
+    background-color: rgb(159, 79, 79);
+   
+}
+.B_section2_gridContainer{
+    /* background-color: #d83030; */
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  /* background-color: aqua; */
+  /* grid-auto-rows: 755px; */
+  margin-top: 50px;
+  width: 75%;
+  margin-left: 220px;
+  gap: 50px;
+}
+.B_section2_gridDiv{
+    /* background-color: aqua; */
+    /* height: 700px; */
+    max-height: fit-content;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    padding: 20px;
+    /* max-width: fit-content; */
+    max-width: 400px;
+}
+.B_section2_gridDiv:hover .B_section2_gridDivImg{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); /* FF 35+ */
+    transition: 0.5s ease-in-out;
+}
+.B_section2_gridDiv:hover .B_section2_headText{
+    color:rgb(18, 115, 235) ;
+    transition: 0.5s ease-in-out;
+}
+.B_section2_gridDivImg{
+    width: 100%;
+}
+.B_section2_gridDivContent{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 90%;
+}
+.B_section2_gridDivDate{
+    display: flex;
+}
+.B_section2_headText{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+
+}
+.B_section2_gridDivRead{
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 600;
+    /* align-items: center; */
+}
+.B_section2_cardArrow{
+    color: black;
+}
+.B_section2_gridDivRead:hover{
+    color:rgb(18, 115, 235) ;
+    transition: 0.5s ease-in-out;
+}
+
+.B_section2_gridDivRead:hover .B_section2_cardArrow{
+    color:rgb(18, 115, 235) ;
+    transition: 0.5s ease-in-out;
+}

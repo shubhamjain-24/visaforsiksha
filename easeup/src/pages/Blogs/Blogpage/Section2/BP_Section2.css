@@ -1,0 +1,43 @@
+/* Ye category Search filter he */
+.BP_section2_CategoryContainer{
+    max-height: fit-content;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 1rem;
+    width: 80%;
+    margin-bottom: 40px;
+    /* background-color: aqua; */
+}
+.BP_section2_CategoryContainer_heading{
+    font-size: 1.2rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    line-height: 1.3rem;
+    margin-bottom: 40px;
+}
+.BP_section2_CategoryContainer_text{
+    font-size: 1rem;
+    font-family: "Roboto";
+    line-height: 27.2px;
+    cursor: pointer;
+}
+.BP_hr {
+    background-color: #555;
+    border: none;
+    display: block;
+    height: 1px;
+    overflow: visible;
+    position: relative;
+    width: 100%;
+}
+
+.BP_hr:before {
+    background-color:  rgb(18, 115, 235);
+    content: '';
+    display: block;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: -2px;
+    width: 25%;
+    z-index: 1;
+}

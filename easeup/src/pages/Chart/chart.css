@@ -1,0 +1,42 @@
+* {
+    font-family: "Roboto";
+}
+
+.admin-chart-mainContainer {
+    margin-right: 20px;
+    padding: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+}
+
+.chart-head {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.admin-mainChartDiv {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin-mainChart {
+    margin-left: 10%;
+}
+
+.admin-mainChart2 {
+    margin-left: 10%;
+    margin-top: 7%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .admin-mainChartDiv {
+        width: 100%;
+    }
+
+    .admin-mainChart {
+        margin-left: 0;
+        width: 500px;
+    }
+}

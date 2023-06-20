@@ -1,0 +1,53 @@
+.internDashboard_mainContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    /* background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%); */
+
+}
+.internDashboard_subContainer1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.internDashboard_subContainer1_inner{
+    margin-top: -80px;
+    line-height: 27px;
+    margin-left: 40px;
+    
+}
+.ID_head{
+    font-size: 4rem;
+    font-weight: 600;
+    color: #2d3867;
+}
+.ID_head2{
+    font-size: 3rem;
+    font-weight: 500;
+    color: #dc6255;
+}
+.Id_head3{
+    color: #3a3c94;
+}
+.internDashboard_Image{
+    margin-left: 30px;
+}
+@media screen and (max-width: 900px){
+    .internDashboard_mainContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .internDashboard_subContainer1_inner{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 800px){
+    .internDashboard_Image{
+        width: 100%;
+        margin: 0;
+    }
+}

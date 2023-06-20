@@ -1,0 +1,39 @@
+/* .s1_mainContainer {
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: relative;
+}
+
+.s1-video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+
+    top: 20;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+} */
+.s1_mainContainer {
+    position: relative;
+    width: 100%;
+    z-index: -1;
+    padding-bottom: 56.25%;
+    /* 16:9 aspect ratio (change as needed) */
+}
+
+.s1-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

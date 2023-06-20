@@ -1,0 +1,111 @@
+.B_section2_mainContainer{
+    background-color: rgb(254, 254, 254);
+   
+}
+.B_section2_gridContainer{
+    /* background-color: #d83030; */
+    display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  /* background-color: aqua; */
+  /* grid-auto-rows: 755px; */
+  margin-top: 50px;
+  width: 75%;
+  margin-left: 200px;
+  gap: 50px;
+}
+.B_section2_gridDiv{
+    /* background-color: aqua; */
+    /* height: 640px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 400;
+    color: rgb(54, 54, 54);
+    padding: 5%;
+}
+.B_section2_gridDiv:hover .B_section2_gridDivImg{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%); /* FF 35+ */
+    transition: 0.5s ease-in-out;
+}
+.B_section2_gridDiv:hover .B_section2_headText{
+    color:#73579D;
+    transition: 0.5s ease-in-out;
+}
+.B_section2_gridDivImg{
+    width: 100%;
+}
+.B_section2_gridDivContent{
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 90%;
+}
+.B_section2_gridDivDate{
+    display: flex;
+    margin-top: 20px;
+}
+.B_section2_headText{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+.B_section2_gridDivRead{
+    display: flex;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 27.2px;
+    font-weight: 600;
+    /* align-items: center; */
+}
+.B_section2_cardArrow{
+    color: black;
+}
+.B_section2_gridDivRead:hover{
+    color:rgb(18, 115, 235) ;
+    transition: 0.5s ease-in-out;
+}
+
+.B_section2_gridDivRead:hover .B_section2_cardArrow{
+    color:rgb(18, 115, 235) ;
+    transition: 0.5s ease-in-out;
+}
+
+@media only screen and (max-width: 1330px){
+    .B_section2_gridContainer{
+        margin-left: 170px;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .B_section2_gridContainer{
+        width: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 630px){
+    .B_section2_gridDivImg{
+        width: 80%;
+    }
+    .B_section2_gridDiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .B_section2_gridContainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .B_section2_gridDivDate{
+        font-size: 11px;
+    }
+    .B_section2_headText{
+        font-size: 16px;
+    }
+    .B_section2_headTextPara{
+        font-size: 14px;
+    }
+}

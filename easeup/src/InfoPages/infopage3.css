@@ -1,0 +1,99 @@
+.if3_mainContainer{
+    /* background-color: aliceblue; */
+    /* width: 80%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+}
+.if3_subContainer{
+    /* height: 100%; */
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+.if3_gridContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr)) ;
+    /* background-color: aqua; */
+}.if1-img{
+    /* height: 120%; */
+    width: 150%;
+}
+.if3_gridsec2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.if3_textSection{
+    text-align: center;
+    line-height: 60px;
+}
+.if3_text1{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.6rem;
+    color: #7b95f9;
+}
+.if3_text3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.6rem;
+    color: #6be579;
+}
+.if3_text2{
+    font-family: "Roboto";
+    font-size:2.6rem;
+    color:black ;
+}
+.if3_text4{
+    font-family: "Roboto";
+    font-size: 3.3rem;
+    color:#f26b6d ;
+    font-weight: 600;
+}
+.if_button{
+    font-size: 1.2rem;
+    background-color: #6be579;
+    border-radius: 50px;
+    line-height: 24px;
+    cursor: pointer;
+    color: white;
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+    /* height: 100px; */
+}
+.if_button:hover{
+    background-color: #43ce54;
+}
+.if3_clientButton{
+    height: 3rem;
+    width: "10rem";
+    /* margin-top: "9rem"; */
+    position: "absolute";
+    background-color: "#2d3867";
+    padding: "0.5rem 1rem";
+    color: "white";
+    margin-left: "20rem";
+    border-radius: "30px";
+    font-size: "15px";
+    z-index: 100;
+}
+.if3_clientButton_Div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media only screen and (max-width: 555px){
+    .if3_gridsec1{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+    }
+.if3-img{
+    width: 60%;
+}.if3_subContainer{
+    border: 0;
+}
+}

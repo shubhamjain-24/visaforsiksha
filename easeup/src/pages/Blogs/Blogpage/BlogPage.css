@@ -1,0 +1,112 @@
+.BP-outerDIV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+*{
+
+}
+
+.BP_section1_mainContainer{
+    background: url('../../../Images/blog-img1.jpeg');
+    width: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    /* object-fit: contain; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.BP_section1_textContainer-Text1{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 56px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.BP_section1_textContainer-Text2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin-top: -40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.8px;
+    color: white;
+}
+
+/* SECTION 2 */
+
+.BP_section2_mainContainer{
+    text-align: justify;
+    margin-top: 5rem;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 80%;
+}
+.BP_section2_subContainer1{
+    flex: 2;
+    /* background-color: aqua; */
+}
+.BP_section2_subContainer2{
+    flex: 1;
+    margin-left: 40px;
+    /* display: flex; */
+    /* align-items: center; */
+}
+.BP_Section2Img{
+    width: 100%;
+}
+.BP_Section2-mainDesc{
+    margin-top: 3rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+.BP_Section2-head1{
+    margin-top: 1.4rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-family: "Poppins";
+}
+.BP_Section2-subDesc{
+    margin-top: 13px;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    line-height: 1.7rem;
+}
+.BP_Section2-pointHead{
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    margin-top: 20px;
+}
+.BP_Section2-points{
+    margin-top: 20px;
+}
+.BP_Section2-point-container{
+    display: flex;
+}
+.BP_Section2-point{
+    font-size: 0.9rem;
+    margin-left: 15px;
+    line-height: 1.5rem;
+    /* margin-top: 10px; */
+}
+
+@media screen and (max-width: 1000px){
+    .BP_section2_mainContainer{
+        display: block;
+    }
+    .BP_section2_subContainer2{
+        display: flex;
+        align-items: center;
+        margin: 0;
+    }
+}

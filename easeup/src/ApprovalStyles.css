@@ -1,0 +1,24 @@
+.ApprovStatus_head{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.Approvstatus_button{
+    margin-left: 10px;
+}
+.aproovStatusPic1{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.ApprovStatus_head_sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    
+}

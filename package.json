@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.17",
+    "@emailjs/browser": "^3.11.0",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^9.0.0",
+    "modules": "^0.4.0",
+    "node": "^20.1.0",
+    "node-cron": "^3.0.2",
+    "react-spring": "^9.7.1",
+    "socket.io": "^4.5.4"
+  }
+}

@@ -1,0 +1,63 @@
+.intern_login__bg{
+    margin-top: 60px;
+    height: 62vh;
+    /* background-color: antiquewhite; */
+}
+.AdminLogin_mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.internLoginimage{
+    margin-top: 35px;
+}
+.adminLoginimage{
+    margin-top: 60px;
+}
+.adminLogin_Form{
+    margin-top: -200px;
+}
+.listnerLogin_Form{
+    margin-top: -160px;
+}
+.login__bg {
+    background-image:'../Images/adminLogin' ;
+    height: 92vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+.showButton{
+    margin-top: 10px;
+    background-color: lightgray;
+    padding: 0px 5px 0px 5px;
+    border: 1px solid black;
+}
+@media (max-width:850px){
+    .internLoginimage{
+        margin-top: 120px;
+    }
+}
+@media (max-width:536px) {
+    .adminLogin_Form,.listnerLogin_Form{
+        margin-top: -240px;
+    }
+    .internLoginForm{
+        margin-top: -140px;
+    }
+    .internLoginimage{
+        margin-top: 30px;
+    }
+}
+@media (max-width:400px) {
+    .adminLogin_Form.listnerLogin_Form{
+        margin-top: -380px;
+    }
+    .adminLoginimage,.listnerLoginimage{
+        margin-top: 20px;
+    }
+    .internLoginForm{
+        margin-top: -200px;
+    }
+}

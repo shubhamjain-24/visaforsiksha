@@ -1,0 +1,91 @@
+.vcs3-footer-item{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background: white;
+    z-index: 1;
+}
+.vcs3-left-item{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 360px;
+}
+.vcs3-left-item .vcs3-icon-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 20px;
+}
+.vcs3-left-item .vcs3-icon-block .vcs3-icon{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.vcs3-left-item .vcs3-icon-block .vcs3-icon:hover{
+    cursor: pointer;
+    background: #eee;
+}
+.vcs3-center-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.vcs3-center-item .vcs3-icon-block{
+    background-color: white;
+    border: 1px solid rgb(223, 223, 223);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+}
+.vcs3-center-item .vcs3-icon-block .vcs3-icon{
+    color: #555;
+    font-size: 20px;
+}
+.red{
+    color: rgb(226, 4, 4);
+    font-size: 20px;
+}
+.vcs3-center-item .vcs3-icon-block .vcs3-icon:ho{
+    cursor: pointer;
+    box-shadow: 0 0 10px #ddd;
+}
+.vcs3-right-item{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+}
+.vcs3-right-item .vcs3-icon-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 146px;
+    color : #555;
+}
+.vcs3-right-item .vcs3-icon-block .vcs3-icon{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.vcs3-title{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.vcs3-title:hover{
+    cursor: pointer;
+    background: #eee;
+}

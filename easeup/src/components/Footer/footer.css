@@ -1,0 +1,275 @@
+*{
+    /* color: white; */
+    font-family: 'Roboto', sans-serif;
+}
+.footer-mainContaier{
+    margin-top: 100px;
+    background: url('../../Images/Untitled1.jpeg');
+    /* height: 600px; */
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.footer-grid{
+ /* background-color: #d83030; */
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ /* background-color: aqua; */
+ /* grid-auto-rows: 755px; */
+ /* margin-top: 50px; */
+ width: 80%;
+ margin-left: 170px;
+ gap: 20px;
+}
+.footer-col1{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    margin-top: 50px;
+    color: rgb(224, 224, 224);
+}
+.footer-col1Img{
+    width: 150px;
+}
+.footer-button,.footer_portal{
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    color: white;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: #1173eb;
+    border: none;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-button:hover{
+    background-color: #074ea5;
+    transition: 0.7s ease-in-out;
+}
+
+
+/* COLUMN 2 */
+.footer-col2{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.col2Heading{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color:white;
+    font-family: "Poppins", sans-serif;
+}
+.col2-valueContainer{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    /* border: 1px solid red; */
+    height: 50px;
+    cursor: pointer;
+}
+.material-symbols-outlined{
+    /* border: 1px solid red; */
+    color: #0063e6;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    /* margin-top: -10px; */
+}
+.col2-valeContainerText:hover{
+    color: rgb(18, 115, 235) ;
+    transition: 0.3s ease-in-out;
+}
+
+/* COLUMN 3 */
+.footer-col3{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.col3-headText{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color:white;
+    font-family: "Poppins", sans-serif
+}
+.col3-container{
+    display: flex;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.col3-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 3px;
+}
+.col3-text{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -3px;
+}
+.col3-text:hover{
+    color: rgb(18, 115, 235) ;
+    transition: 0.3s ease-in-out;
+}
+
+/* COLUMN 4 */
+
+.footer-col4{
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.col4-headText{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    color:white;
+    font-family: "Poppins", sans-serif
+}
+.col4-valueContainer{
+    display: flex;
+    color:rgb(224, 224, 224);
+    width: 80%;
+    /* border: 1px solid red; */
+    /* height: 50px; */
+    cursor: pointer;
+    margin-top: 20px;
+}
+.col4-valeContainerText{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27.2px;
+    margin-top: -4px;
+    margin-left: 20px;
+
+}
+.col4-valeContainerText:hover{
+    color: rgb(18, 115, 235) ;
+    transition: 0.3s ease-in-out;
+}
+.line{
+    width: 80%;
+    border: 1px solid black;
+}
+
+/* COLOUM 5 */
+
+.footer-col5{
+ display: flex;   
+ align-items: center;
+ justify-content: center;
+}
+.col5-mainContainer{
+    width: 70%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.col5-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+    color: rgb(224, 224, 224);
+}
+.col5-logoContainer{
+    display: flex;
+}
+.svg{
+    height: 40px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+/* responsive */
+
+@media screen and (max-width: 1360px){
+    .footer-mainContaier{
+        background: none;
+        background-color: black;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 854px){
+    .footer-grid{
+        margin-left: 120px;
+    }
+    .footer-col1{
+        font-size: 13px;
+    }
+    .footer-button{
+        width: 120px;
+    height: 40px;
+    font-size: 13px;
+    }
+    .col2Heading{
+        font-size: 20px;
+    }
+    .col2-valueContainer{
+        font-size: 13px;
+    }
+    .col3-headText{
+        font-size: 20px;
+    }
+    .col3-text{
+        font-size: 13px;
+    }
+    .col3-image{
+        height: 50px;
+        width: 50px;
+    }
+    .col4-headText{
+        font-size: 20px;
+    }
+    .col4-valeContainerText{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 704px){
+    .footer-grid{
+        margin-left: 80px;
+    }
+}
+@media screen and (max-width: 640px){
+    .footer-grid{
+        margin-left: 60px;
+    }
+}
+@media screen and (max-width: 456px){
+    .footer-grid{
+        margin-left: 50px;
+    }
+    .col5-text{
+        font-size: 13px;
+    }
+    .svg{
+        height: 20px;
+    }
+    
+}
+@media screen and (max-width: 350px){
+    .footer-grid{
+        margin-left: 40px;
+    }
+        .svg {
+            height: 12px;
+        }
+}
